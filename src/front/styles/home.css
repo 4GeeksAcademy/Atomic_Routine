@@ -5,3 +5,21 @@
     one more css for each page that will contain the selected used 
     on that page only (the ones not reused in other pages).
 */
+
+.sidebar ul li:hover {
+    background-color: lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sidebar ul li:hover a {
+    color: white;
+}
+
+.active {
+    background-color: lightgray;
+    border-radius: 5px;
+    color: white;
+  
+
+}
